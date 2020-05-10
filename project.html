@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+h1{
+color:#000000;
+}
+.image {
+  display: block;
+  width: 50%;
+  height: 70%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+a:link, a:visited {
+  color:#000000;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+
+</style>
+</head>
+<body style="background-color:lightblue">
+<h1>Skills</h1>
+<img src="tech1.jpg">
+<img src="tech2.jpg">
+<img src="tech3.jpg">
+<img src="tech4.jpg">
+<img src="tech5.jpg">
+<h1>Projects</h1>
+<img src="pro.jpg">
+<br><br><br><br>
+<h1>Studymonk Achievements</h1>
+<div class="container">
+  <img src="sm1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Film Critic Contest Certificate</div>
+  </div><br><br>
+</div>
+<div class="container">
+  <img src="sm2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Photoshop Contest Certificate</div>
+  </div><br><br>
+</div>
+<div class="container">
+  <img src="sm3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Blogging Contest Certificate</div>
+  </div>
+</div><br>
+<h1>Blogs</h1>
+<a  href="https://medium.com/p/626be9eb4e86" class=first>https://medium.com/p/626be9eb4e86</a><br>
+<a href="https://medium.com/p/e381f6301699" class=first>https://medium.com/p/e381f6301699</a>
+
+</body>
+</html
